@@ -1,6 +1,2 @@
-- XXXXXXX论文
-
-- XXXXXXX论文
-
-- XXXXXXX论文
-
+- See My InspireHEP homepage
+(https://inspirehep.net/authors/2630072)
