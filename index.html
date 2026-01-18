@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页 | 黑洞环绕 + 中英文切换</title>
+    <title>Homepage | Ao Guo </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
@@ -250,7 +250,16 @@
             animation: orbit-outer 8s linear infinite;
             transform-origin: 140px 140px;
         }
-        
+
+                /* 第二个黑洞 - 内圈反向旋转 */
+        .black-hole-2 {
+            top: 50%;
+            left: 50%;
+            margin-top: -17.5px;
+            margin-left: -17.5px;
+            animation: orbit-inner 9s linear infinite reverse;
+            transform-origin: 140px 140px;
+        }
         
         /* 第三个黑洞 - 小椭圆轨道 */
         .black-hole-3 {
@@ -898,7 +907,7 @@
             <div class="avatar-glow"></div>
             
             <!-- 用户头像 -->
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Profile Photo" class="avatar">
+            <img src="static/assets/img/photo.png" alt="Profile Photo" class="avatar">
         </div>
         
         <div class="home-content">
